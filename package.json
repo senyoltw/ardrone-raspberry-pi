@@ -1,0 +1,30 @@
+{
+  "name": "ardrone-raspberry-pi",
+  "version": "1.0.0",
+  "description": "AR.Drone 2.0をRaspberry Piで操作する",
+  "main": "auto.js",
+  "dependencies": {
+    "dronestream": "^1.1.1",
+    "r-pi-usonic": "^2.3.2",
+    "ar-drone": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node auto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senyoltw/ardrone-raspberry-pi.git"
+  },
+  "keywords": [
+    "AR.Drone",
+    "Raspberry",
+    "Pi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senyoltw/ardrone-raspberry-pi/issues"
+  },
+  "homepage": "https://github.com/senyoltw/ardrone-raspberry-pi"
+}
