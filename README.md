@@ -24,7 +24,8 @@ npm test
 
 ### AR Drone 2.0とRaspberry Pi B+について
 * 操作  
-AR Drone 2.0は起動するとアクセスポイントが発生するので、その電波とRaspberry Piを接続すれば操作が可能になる。なのでRaspberry PiとAR Droneを接続するUSBWi-Fiが最低1つ、ワイヤレスでコマンドを投入することを考えるともう1つ必要になる。
+AR Drone 2.0は起動するとアクセスポイントが発生するので、その電波とRaspberry Piを接続すれば操作が可能になる。なのでRaspberry PiとAR Droneを接続するUSBWi-Fiが最低1つ、ワイヤレスでコマンドを投入することを考えるともう1つ必要になる。  
+もしくは、AR Droneのアクセスポイントを経由してRaspberry Piへsshログインすることで対応もできる。
 * 電源  
 AR Droneのバッテリー接続部分からUSBがでている。これは本来[GPSフライトレコーダー](http://www.amazon.co.jp/gp/product/B00DAL6D3Y?ie=UTF8&camp=1207&creative=8411&creativeASIN=B00DAL6D3Y&linkCode=shr&tag=senyoltw-22&qid=1414830236&sr=8-2&keywords=GPS+ar+drone)を接続するものだが、ここから電源を取得できる。このUSBポートの電源からRaspberry Piが起動することは確認済み
 * 重さ  
