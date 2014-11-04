@@ -41,9 +41,9 @@ var control = function(){
 		client.clockwise(0.3);
 	}
 	setTimeout(function () {
-    client.stop();
-    control();
-    }, 100);
+		client.stop();
+		control();
+	}, 100);
 };
 
 setTimeout(function () {
