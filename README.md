@@ -10,7 +10,8 @@ Install! [node.js](http://ja.wikipedia.org/wiki/Node.js)
 
 ### Introduction
 AR.Drone 2.0をRaspberry Piで操作するプログラム
-
+Rspberry Piの環境構築手順はこちら  
+[RaspberryPi_setup.md](RaspberryPi_setup.md)
 ### How to install
 ```bash
 # ssh Raspberry Pi B+
